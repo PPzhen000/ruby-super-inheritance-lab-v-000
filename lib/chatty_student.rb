@@ -8,7 +8,7 @@ want any spoilers? Okay well let me just tell you who died..."
 
   def raise_hand
     super
-    9.times puts "Pick me!"
+    9.times {puts "Pick me!"} 
   end
 
 end
